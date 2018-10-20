@@ -1,12 +1,13 @@
 //
-//  Game.swift
+//  ViewModel.swift
 //  GameApp
 //
-//  Created by admin on 2018-10-16.
+//  Created by Jenny on 2018-10-19.
 //  Copyright © 2018 Davoodi, Alireza. All rights reserved.
 //
 
 import Foundation
-class Game {
-    var numberOfLevels = 0;
+
+class ViewModel : NSObject {
+    
 }

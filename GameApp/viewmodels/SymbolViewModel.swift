@@ -1,0 +1,17 @@
+//
+//  SymbolViewModel.swift
+//  GameApp
+//
+//  Created by Jenny on 2018-10-19.
+//  Copyright © 2018 Davoodi, Alireza. All rights reserved.
+//
+
+import Foundation
+
+class SymbolViewModel : ViewModel {
+    var status : ToolStatus
+    
+    override init() {
+        status = .happy
+    }
+}
