@@ -11,7 +11,12 @@ import UIKit
 
 class GameManager: NSObject {
 
-    var rpsGame: RPSGAME! = nil;
+    var rpsGame: RPSGAME! = {
+        didSet {
+            let notif = NotificationCenter.default
+            notif.post(Notification(name: Notification.Name(rawValue: Constants.NotificationConstants.RPS_GAME_STATUS_UPDATE_NOTIFICATION)))
+        }
+    };
     //private static var game: RPSGAME? = nil
     private static var gameManager: GameManager! = nil
 

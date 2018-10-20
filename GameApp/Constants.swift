@@ -12,4 +12,9 @@ struct Constants {
     static let ROCK : String = "rock"
     static let PAPER : String = "paper"
     static let SCISSOR : String = "scissor"
+
+
+    struct NotificationConstants {
+        static let RPS_GAME_STATUS_UPDATE_NOTIFICATION = "RPSGameStatusUpdateNotification"
+    }
 }
